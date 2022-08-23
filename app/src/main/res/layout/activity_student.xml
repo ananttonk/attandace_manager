@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.Drawer.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_task_list"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/white"
+                app:popupTheme="@style/Theme.Drawer.PopupOverlay"
+                app:subtitleTextColor="@color/textColor"
+                app:titleTextColor="@color/textColor" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/textColor" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/student_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_data"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_bt_add_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_add_24" />
+
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/myTheme</item>
+    </style>
+    <style name="Theme.Drawer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Drawer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="myTheme" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_baseline_more_vert_24</item>
+    </style>
+</resources>

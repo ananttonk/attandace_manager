@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_change_date"
+        android:title="Change Date"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/item_attendance_sheet"
+        android:title="Attendance Details"
+        android:orderInCategory="200"/>
+
+    <item
+        android:id="@+id/student_details_item"
+        android:title="Student Details"
+        android:orderInCategory="300"/>
+
+</menu>

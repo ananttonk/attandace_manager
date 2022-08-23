@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ClassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:elevation="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/attendance_manager"
+                android:textColor="@color/textColor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/textColor" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rev_sub_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_data"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_add_24" />
+
+
+</FrameLayout>

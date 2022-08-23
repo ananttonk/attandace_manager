@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020326145647",
+    "project_id": "student-attendace-management",
+    "storage_bucket": "student-attendace-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020326145647:android:2ed6fdeb0da86ffa5c679a",
+        "android_client_info": {
+          "package_name": "com.example.attendencemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020326145647-8p4k2qqtdhtj0rjd674rnbfqb24l0uav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqtpXve_ABrZZkwthVlSfe1pCeE7CH39U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020326145647-8p4k2qqtdhtj0rjd674rnbfqb24l0uav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
