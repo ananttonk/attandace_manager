@@ -33,27 +33,15 @@ class SplashScreenActivity : AppCompatActivity() {
             )
         }
 
+
         val splashScreenAnim = AnimationUtils.loadAnimation(this, R.anim.splash_screen_anim)
         binding.splashText.animation = splashScreenAnim
-
-        splashScreenAnim.setAnimationListener(object : Animation.AnimationListener {
-            override fun onAnimationStart(animation: Animation?) {
-               // TODO("Not yet implemented")
-            }
-
-            override fun onAnimationEnd(animation: Animation?) {
-                Handler(Looper.getMainLooper()).postDelayed(
-                    {
-                        startActivity(Intent(this@SplashScreenActivity, ClassActivity::class.java))
-                        finish()
-                    }, 1500
-                )
-            }
-
-            override fun onAnimationRepeat(animation: Animation?) {
-               // TODO("Not yet implemented")
-            }
-        })
+        Handler(Looper.getMainLooper()).postDelayed(
+            {
+                startActivity(Intent(this@SplashScreenActivity, ClassActivity::class.java))
+                finish()
+            }, 2500
+        )
 
     }
 }
