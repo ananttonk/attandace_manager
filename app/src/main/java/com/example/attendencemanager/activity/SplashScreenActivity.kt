@@ -1,4 +1,4 @@
-package com.example.attendencemanager.Activity
+package com.example.attendencemanager.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -9,7 +9,6 @@ import android.os.Handler
 import android.os.Looper
 import android.view.WindowInsets
 import android.view.WindowManager
-import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import com.example.attendencemanager.R
 import com.example.attendencemanager.databinding.ActivitySplashScreenBinding

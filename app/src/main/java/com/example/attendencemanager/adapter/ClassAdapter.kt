@@ -10,7 +10,7 @@ import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.attendencemanager.R
-import com.example.attendencemanager.Activity.StudentActivity
+import com.example.attendencemanager.activity.StudentActivity
 import com.example.attendencemanager.databinding.SubjectItemListBinding
 import com.example.attendencemanager.model.SubClassEntity
 

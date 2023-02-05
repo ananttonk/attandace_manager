@@ -1,4 +1,4 @@
-package com.example.attendencemanager.Activity
+package com.example.attendencemanager.activity
 
 import android.app.AlertDialog
 import android.app.Dialog

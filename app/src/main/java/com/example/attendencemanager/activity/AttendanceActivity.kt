@@ -1,13 +1,8 @@
-package com.example.attendencemanager.Activity
+package com.example.attendencemanager.activity
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -21,7 +16,6 @@ import com.view.calender.horizontal.umar.horizontalcalendarview.DayDateMonthYear
 import com.view.calender.horizontal.umar.horizontalcalendarview.HorizontalCalendarListener
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import java.io.File
 
 class AttendanceActivity : AppCompatActivity(), HorizontalCalendarListener {
     private lateinit var binding: ActivityAttendanceSheetBinding

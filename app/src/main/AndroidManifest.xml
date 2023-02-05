@@ -3,7 +3,7 @@
     package="com.example.attendencemanager">
 
     <application
-        android:name=".Activity.DataBaseApplication"
+        android:name=".activity.DataBaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,15 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AttendenceManager">
         <activity
-            android:name=".Activity.StudentDetails"
+            android:name=".activity.StudentDetails"
             android:exported="false"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Activity.AttendanceActivity"
+            android:name=".activity.AttendanceActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.SplashScreenActivity"
+            android:name=".activity.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,11 +28,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.StudentActivity"
+            android:name=".activity.StudentActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.ClassActivity"
+            android:name=".activity.ClassActivity"
             android:exported="false" />
     </application>
 
